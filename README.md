@@ -19,5 +19,20 @@ If you need a standalone <script>, though, a minified browser build that attache
 ```
 You can check it on the demo folder
 
+### Usage
+```js
+var AnimateTypingText = require('animate-typing-text')
+
+// With options default
+new AnimateTypingText('.paragraph')
+
+// With custom options default
+new AnimateText('.paragraph', {
+  time: 1000,
+  letter: 'char' // Now there have two type (char & word)
+  onAnimated: function () {console.log('done!')}
+})
+```
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
