@@ -13,7 +13,7 @@ use with a bundler like webpack or browserify:
 ```js
 var AnimateTypingText = require('animate-typing-text')
 ```
-If you need a standalone <script>, though, a minified browser build that attaches to the global namespace as AnimateTypingText is provided here:
+If you need a standalone <script>, though, a minified browser build that attaches to the global namespace as AnimateTypingText is provided [here](https://github.com/darwinchyd/animate-typing-text/blob/master/browser/dist/animate-typing-text.min.js):
 ```js
 <script src="animate-typing-text.min.js"></script>
 ```
