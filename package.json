@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "html",
+    "text-animation",
+    "typing",
+    "text"
+  ],
+  "repository": "darwinchyd/animate-typing-text",
   "author": "Darwin Cahyadi (darwin301194@gmail.com)",
-  "license": "ISC"
+  "license": "MIT"
 }
