@@ -5,11 +5,11 @@
   "main": "dist/animate-typing-text.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node bin/build.js"
+    "build": "rm -rf dist/ && mkdir dist/ && node bin/build.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "uglify-js": "^2.8.22"
+    "uglify-js": "github:mishoo/UglifyJS2#harmony"
   }
 }
