@@ -1,0 +1,15 @@
+{
+  "name": "animate-typing-text-browser",
+  "version": "0.0.1",
+  "description": "Animate text like typin",
+  "main": "dist/animate-typing-text.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node bin/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^2.8.22"
+  }
+}
